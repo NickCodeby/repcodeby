@@ -1,158 +1,780 @@
 Script started on 2023-12-05 12:29:19-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="77" LINES="27"]
-                                                                             ]0;kali@CodeNick: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mservice[39m nginx status[19D[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m enable [1mn[1mg[1mi[1mnx[0m[21D[36me[36mr[36mv[36mi[36mc[36me[39m[39m [39mnginx sta[0mt[0mu[0ms[0m [0m [25D[24m[39m [24m[39m [24m[39m [24m[39m  [39m [39m [39m [39m [39m [39m [39m              [25D[7m[36mnano[39m[7m /etc/apt/sources.list.d/unit.list[27m[38D[27m[36mn[27m[36ma[27m[36mn[27m[36mo[39m[27m [27m/[27me[27mt[27mc[27m/[27ma[27mp[27mt[27m/[27ms[27mo[27mu[27mr[27mc[27me[27ms[27m.[27ml[27mi[27ms[27mt[27m.[27md[27m/[27mu[27mn[27mi[27mt[27m.[27ml[27mi[27ms[27mt[?1l>[?2004l
-[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;12H(B[0;1m[37m[41m[ Directory '/etc/apt/sources.list.d' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;59H(B[0;7m*[25d(B[m[K[1;76H[2ddeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.nginx[39m(B[0;7m>[3;1H<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[?12l[?25h[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[25;10H(B[0;7m[ line  2/3 (66%), col 109/109 (100%), char 213/214 (99%) ](B[m[?12l[?25h[3;40H[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[25;69H[?12l[?25h[3;40H[?25l[25;69H[?12l[?25h[3;40H[?25l[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[26d(B[0;7m^G(B[m Help[26;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[26;58H(B[0;7mM-B(B[m Backup File[27d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[27;58H(B[0;7m^T(B[m Browse[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list(B[m[?12l[?25h[?25l[?12l[?25h[?25l[25;32H[1K (B[0;7m[ Cancelled ](B[m[K[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[25;32H[1K (B[0;7m[ Cancelled ](B[m[K[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25ldeb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.n[39m(B[0;7m>[4;1H(B[m[?12l[?25h[?25l[25;27H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[4d[?25l[?12l[?25ht[?25l[?12l[?25h[K[?25l[A(B[0;7m<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[K[?12l[?25h[?25l[?12l[?25h[A(B[0;7m<(B[0m[94m.nginx.org/unit/ubuntu/[39m(B[m jammy unit[K[3ddeb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.n[39m(B[0;7m>[2;36H(B[m[?25l[?12l[?25h[?25l[?12l[?25hdeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.nginx[39m(B[0;7m>[4;1H(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hu[?25l[25d[K[?12l[?25h[4d[K[?25l[25;11H(B[0;7m[ line  3/4 (75%), col  1/ 1 (100%), char 214/215 (99%) ](B[m[?12l[?25h[4d[?25l[25;68H[?12l[?25h[4d[?25l[25;68H[?12l[?25h[4d[?25l[25;26H[1K (B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[K[?12l[?25h[4d[?25l[25;52H[?12l[?25h[4d[?25l[25;52H[?12l[?25h[4d[?25l[25;52H[?12l[?25h[4d[?25l[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[?12l[?25h[?25l[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mnano[39m /etc/apt/sources.list.d/unit.list[?1l>[?2004l
-[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;12H(B[0;1m[37m[41m[ Directory '/etc/apt/sources.list.d' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;59H(B[0;7m*[25d(B[m[K[1;76H[2ddeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.nginx[39m(B[0;7m>[3;1H<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[?12l[?25h[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l   (B[0;1m[37m[41m[ Error writing /etc/apt/sources.list.d/unit.list: Permission denied ][39;49m(B[m[K[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l   (B[0;1m[37m[41m[ Error writing /etc/apt/sources.list.d/unit.list: Permission denied ][39;49m(B[m[K[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[25;26H[1K (B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[K[?12l[?25h[3;40H[?25l[25;52H[?12l[?25h[3;40H[?25l[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?1l>[?2004l
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mnano[39m /etc/apt/sources.list.d/unit.list[39m[4ms[39m[4mn[39m[4ma[39m[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4ms[4mu[4mn[4ma[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4md[4mn[4ma[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4mo[4mn[4ma[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36mn[24m[36ma[24m[36mn[36mo[39m /etc/apt/sources.list.d/unit.list[38D[?1l>[?2004l
+                                                                             
+]0;kali@CodeNick: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mservice[39m nginx status[19D[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m enable [1mn[1mg[1mi[1mnx[0m[21D[36me[36mr[36mv[36mi[36mc[36me[39m[39m [39mnginx sta[0mt[0mu[0ms[0m [0m [25D[24m[39m [24m[39m [24m[39m [24m[39m  [39m [39m [39m [39m [39m [39m [39m              [25D[7m[36mnano[39m[7m /etc/apt/sources.list.d/unit.list[27m[38D[27m[36mn[27m[36ma[27m[36mn[27m[36mo[39m[27m [27m/[27me[27mt[27mc[27m/[27ma[27mp[27mt[27m/[27ms[27mo[27mu[27mr[27mc[27me[27ms[27m.[27ml[27mi[27ms[27mt[27m.[27md[27m/[27mu[27mn[27mi[27mt[27m.[27ml[27mi[27ms[27mt[?1l>[?2004l
+
+[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;12H(B[0;1m[37m[41m[ Directory '/etc/apt/sources.list.d' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m
+[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute
+[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify
+[2d[?12l[?25h[?25l[1;59H(B[0;7m*
+[25d(B[m[K[1;76H
+[2ddeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.nginx[39m(B[0;7m>[3;1H<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[?12l[?25h[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[25;10H(B[0;7m[ line  2/3 (66%), col 109/109 (100%), char 213/214 (99%) ](B[m[?12l[?25h[3;40H[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[25;69H[?12l[?25h[3;40H[?25l[25;69H[?12l[?25h[3;40H[?25l
+[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K
+[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l
+[26d(B[0;7m^G(B[m Help[26;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[26;58H(B[0;7mM-B(B[m Backup File
+[27d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[27;58H(B[0;7m^T(B[m Browse
+[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list(B[m[?12l[?25h[?25l[?12l[?25h[?25l[25;32H[1K (B[0;7m[ Cancelled ](B[m[K[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[?12l[?25hg[?25l[?12l[?25h [?25l
+[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K
+[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[25;32H[1K (B[0;7m[ Cancelled ](B[m[K
+[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute
+[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l
+deb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.n[39m(B[0;7m>[4;1H(B[m[?12l[?25h[?25l[25;27H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h
+[4d[?25l[?12l[?25ht[?25l[?12l[?25h[K[?25l[A(B[0;7m<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[K[?12l[?25h[?25l[?12l[?25h
+[A(B[0;7m<(B[0m[94m.nginx.org/unit/ubuntu/[39m(B[m jammy unit[K
+[3ddeb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.n[39m(B[0;7m>[2;36H(B[m[?25l[?12l[?25h[?25l[?12l[?25h
+deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.nginx[39m(B[0;7m>[4;1H(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hu[?25l[25d[K[?12l[?25h[4d[K[?25l[25;11H(B[0;7m[ line  3/4 (75%), col  1/ 1 (100%), char 214/215 (99%) ](B[m[?12l[?25h
+[4d[?25l[25;68H[?12l[?25h
+[4d[?25l[25;68H[?12l[?25h
+[4d[?25l[25;26H[1K (B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[K[?12l[?25h
+[4d[?25l[25;52H[?12l[?25h
+[4d[?25l[25;52H[?12l[?25h
+[4d[?25l[25;52H[?12l[?25h
+[4d[?25l[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K
+[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[?12l[?25h[?25l
+[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t
+[?1l>[?2004l                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mnano[39m /etc/apt/sources.list.d/unit.list[?1l>[?2004l
+
+[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;12H(B[0;1m[37m[41m[ Directory '/etc/apt/sources.list.d' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m
+[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute
+[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify
+[2d[?12l[?25h[?25l[1;59H(B[0;7m*
+[25d(B[m[K[1;76H
+[2ddeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.nginx[39m(B[0;7m>[3;1H<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[?12l[?25h[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K
+[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l
+   (B[0;1m[37m[41m[ Error writing /etc/apt/sources.list.d/unit.list: Permission denied ][39;49m(B[m[K[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K
+[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l
+   (B[0;1m[37m[41m[ Error writing /etc/apt/sources.list.d/unit.list: Permission denied ][39;49m(B[m[K[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[25;26H[1K (B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[K[?12l[?25h[3;40H[?25l[25;52H[?12l[?25h[3;40H[?25l
+[25d(B[0;7mSave modified buffer?                                                        [26;1H Y(B[m Yes[K
+[27d(B[0;7m N(B[m No  [27;16H (B[0;7m^C(B[m Cancel[K[25;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l
+[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t
+[?1l>[?2004l                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?1l>[?2004l
+
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mnano[39m /etc/apt/sources.list.d/unit.list[39m[4ms[39m[4mn[39m[4ma[39m[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4ms[4mu[4mn[4ma[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4md[4mn[4ma[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4mo[4mn[4ma[4mn[4mo[24m /etc/apt/sources.list.d/unit.list[38D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36mn[24m[36ma[24m[36mn[36mo[39m /etc/apt/sources.list.d/unit.list[38D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
 [sudo] password for kali: 
-[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;33H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;59H(B[0;7m*[76G(B[m[25d[K[2d [?12l[?25h[?25ldeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.ngin[39m(B[0;7m>[3;1H<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[?12l[?25h[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l[25;31H[1K (B[0;7m[ Writing... ](B[m[K[1;59H(B[0;7m [76G(B[m[25;31H(B[0;7m[ Wrote 2 lines ](B[m[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[25;27H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[3;40H[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mnano[39m [1m/etc/apt/sources.list.d/unit.list[0m[39m[4mn[39m[4ma[39m[4mn[24m[P[34C [35D[4ma[24m[P[34C [35D[4mn[24m[P[34C [35D[P[34C [35D[4mc[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[4mc[4ma[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[24m[36mc[24m[36ma[36mt[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[?1l>[?2004l
+[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;33H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m
+[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute
+[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify
+[2d[?12l[?25h[?25l[1;59H(B[0;7m*[76G(B[m
+[25d[K[2d [?12l[?25h[?25ldeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [94mhttps://packages.ngin[39m(B[0;7m>[3;1H<(B[0m[94mages.nginx.org/unit/ubuntu/[39m(B[m jammy unit[?12l[?25h[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K
+[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l[25;31H[1K (B[0;7m[ Writing... ](B[m[K[1;59H(B[0;7m [76G(B[m[25;31H(B[0;7m[ Wrote 2 lines ](B[m[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[3;40H[?25l[25;27H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[3;40H[?25l
+[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t
+[?1l>[?2004l                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mnano[39m [1m/etc/apt/sources.list.d/unit.list[0m[39m[4mn[39m[4ma[39m[4mn[24m[P[34C [35D[4ma[24m[P[34C [35D[4mn[24m[P[34C [35D[P[34C [35D[4mc[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[4mc[4ma[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[24m[36mc[24m[36ma[36mt[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
  deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unit
 deb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unit
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m update[27m[10D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mu[27mp[27md[27ma[27mt[27me[?1l>[?2004l
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 55%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... Done
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m update[27m[10D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mu[27mp[27md[27ma[27mt[27me[?1l>[?2004l
+
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 55%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... Done
+
 [1;31mE: [0mCould not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)[0m
 [1;31mE: [0mUnable to lock directory /var/lib/apt/lists/[0m
 [1;33mW: [0mProblem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)[0m
 [1;33mW: [0mProblem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m update[39m[4ms[39m[4ma[39m[4mp[4mt[24m update[10D[4ms[4mu[4ma[4mp[4mt[24m update[10D[4md[4ma[4mp[4mt[24m update[10D[4mo[4ma[4mp[4mt[24m update[10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m update[10D[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m update[39m[4ms[39m[4ma[39m[4mp[4mt[24m update[10D[4ms[4mu[4ma[4mp[4mt[24m update[10D[4md[4ma[4mp[4mt[24m update[10D[4mo[4ma[4mp[4mt[24m update[10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m update[10D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-[33m0% [Working][0m            Get:1 http://packages.microsoft.com/repos/code stable InRelease [3,589 B]
-[33m0% [Connecting to http.kali.org] [Connecting to packages.nginx.org] [1 InRel[0m[33m                                                                            0% [Connecting to http.kali.org] [Connecting to packages.nginx.org][0m[33m                                                                   0% [Connecting to http.kali.org] [Waiting for headers][0m                                                      Get:2 https://packages.nginx.org/unit/ubuntu jammy InRelease [2,812 B]
-[33m0% [Connecting to http.kali.org] [2 InRelease 2,812 B/2,812 B 100%] [Waiting[0m[33m                                                                            0% [Connecting to http.kali.org] [Waiting for headers][0m                                                      Get:3 http://packages.microsoft.com/repos/code stable/main armhf Packages [24.2 kB]
-[33m0% [Connecting to http.kali.org] [3 Packages 5,398 B/24.2 kB 22%][0m[33m                                                                 0% [Connecting to http.kali.org][0m                                Err:2 https://packages.nginx.org/unit/ubuntu jammy InRelease
+[33m
+0% [Working][0m
+            
+Get:1 http://packages.microsoft.com/repos/code stable InRelease [3,589 B]
+[33m
+0% [Connecting to http.kali.org] [Connecting to packages.nginx.org] [1 InRel[0m[33m
+                                                                            
+0% [Connecting to http.kali.org] [Connecting to packages.nginx.org][0m[33m
+                                                                   
+0% [Connecting to http.kali.org] [Waiting for headers][0m
+                                                      
+Get:2 https://packages.nginx.org/unit/ubuntu jammy InRelease [2,812 B]
+[33m
+0% [Connecting to http.kali.org] [2 InRelease 2,812 B/2,812 B 100%] [Waiting[0m[33m
+                                                                            
+0% [Connecting to http.kali.org] [Waiting for headers][0m
+                                                      
+Get:3 http://packages.microsoft.com/repos/code stable/main armhf Packages [24.2 kB]
+[33m
+0% [Connecting to http.kali.org] [3 Packages 5,398 B/24.2 kB 22%][0m[33m
+                                                                 
+0% [Connecting to http.kali.org][0m
+                                
+Err:2 https://packages.nginx.org/unit/ubuntu jammy InRelease
   The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62
-[33m0% [Connecting to http.kali.org][0m[33m0% [3 Packages store 0 B] [Connecting to http.kali.org] [Waiting for headers[0m[33m                                                                            0% [Connecting to http.kali.org] [Waiting for headers][0m                                                      Get:4 http://packages.microsoft.com/repos/code stable/main amd64 Packages [23.9 kB]
-[33m0% [Connecting to http.kali.org] [4 Packages 14.0 kB/23.9 kB 59%][0m[33m                                                                 0% [Connecting to http.kali.org] [Waiting for headers][0m                                                      Get:5 http://packages.microsoft.com/repos/code stable/main arm64 Packages [23.9 kB]
-[33m0% [Connecting to http.kali.org] [5 Packages 15.7 kB/23.9 kB 66%][0m[33m0% [4 Packages store 0 B] [Connecting to http.kali.org] [5 Packages 15.7 kB/[0m[33m                                                                            0% [Connecting to http.kali.org] [5 Packages 15.7 kB/23.9 kB 66%][0m[33m                                                                 0% [Connecting to http.kali.org][0m[33m0% [5 Packages store 0 B] [Connecting to http.kali.org][0m[33m                                                       0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m                                Get:6 https://packages.microsoft.com/repos/vscode stable InRelease [3,593 B]
-[33m0% [Connecting to http.kali.org] [6 InRelease 3,593 B/3,593 B 100%][0m[33m                                                                   0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m                                Get:7 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [26.5 kB]
-[33m0% [Connecting to http.kali.org] [7 Packages 16.0 kB/26.5 kB 60%][0m[33m                                                                 0% [Connecting to http.kali.org][0m[33m0% [7 Packages store 0 B] [Connecting to http.kali.org][0m[33m                                                       0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m[33m                                0% [Working][0m            Get:8 http://mirror.truenetwork.ru/kali kali-rolling InRelease [41.2 kB]
-[33m0% [8 InRelease 11.3 kB/41.2 kB 27%][0m[33m                                    0% [Working][0m[33m18% [Working][0m             Get:9 http://mirror.truenetwork.ru/kali kali-rolling/main amd64 Packages [19.4 MB]
-[33m18% [9 Packages 4,096 B/19.4 MB 0%][0m[33m22% [9 Packages 3,290 kB/19.4 MB 17%][0m[33m29% [9 Packages 9,193 kB/19.4 MB 47%][0m[33m                                     36% [9 Packages 15.0 MB/19.4 MB 77%][0m[33m                                    41% [Working][0m[33m41% [Waiting for headers] [9 Packages store 0 B][0m                                                Get:10 http://mirror.truenetwork.ru/kali kali-rolling/main amd64 Contents (deb) [45.9 MB]
-[33m41% [10 Contents-amd64 0 B/45.9 MB 0%] [9 Packages store 0 B][0m[33m47% [10 Contents-amd64 4,682 kB/45.9 MB 10%] [9 Packages store 0 B][0m[33m52% [10 Contents-amd64 9,113 kB/45.9 MB 20%] [9 Packages store 0 B][0m[33m55% [10 Contents-amd64 11.0 MB/45.9 MB 24%]                   3,254 kB/s 11s[0m[33m60% [10 Contents-amd64 15.6 MB/45.9 MB 34%]                    3,254 kB/s 9s[0m[33m66% [10 Contents-amd64 20.4 MB/45.9 MB 45%]                    3,254 kB/s 8s[0m[33m72% [10 Contents-amd64 25.3 MB/45.9 MB 55%]                    3,254 kB/s 6s[0m[33m78% [10 Contents-amd64 30.2 MB/45.9 MB 66%]                    3,254 kB/s 5s[0m[33m84% [10 Contents-amd64 35.3 MB/45.9 MB 77%]                    3,254 kB/s 3s[0m[33m90% [10 Contents-amd64 40.3 MB/45.9 MB 88%]                    3,254 kB/s 2s[0m[33m96% [10 Contents-amd64 45.3 MB/45.9 MB 99%]                    3,254 kB/s 0s[0m[33m96% [10 Contents-amd64 45.9 MB/45.9 MB 100%]                   3,254 kB/s 0s[0m[33m96% [Waiting for headers]                                      3,254 kB/s 0s[0m                                                                            Get:11 http://mirror.truenetwork.ru/kali kali-rolling/contrib amd64 Packages [122 kB]
-[33m96% [11 Packages 138 B/122 kB 0%]                              3,254 kB/s 0s[0m[33m                                                                            96% [11 Packages 65.7 kB/122 kB 54%] [10 Contents-amd64 store 0 B][0m[33m96% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m                                                                            Get:12 http://mirror.truenetwork.ru/kali kali-rolling/contrib amd64 Contents (deb) [294 kB]
-[33m                                                                            96% [12 Contents-amd64 0 B/294 kB 0%] [10 Contents-amd64 store 0 B][0m[33m97% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m                                                                            Get:13 http://mirror.truenetwork.ru/kali kali-rolling/non-free amd64 Packages [226 kB]
-[33m97% [13 Packages 0 B/226 kB 0%] [10 Contents-amd64 store 0 B]  3,254 kB/s 0s[0m[33m97% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m                                                                            Get:14 http://mirror.truenetwork.ru/kali kali-rolling/non-free amd64 Contents (deb) [914 kB]
-[33m                                                                            97% [14 Contents-amd64 0 B/914 kB 0%] [10 Contents-amd64 store 0 B][0m[33m98% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m98% [Working]                                                  7,429 kB/s 0s[0m[33m98% [11 Packages store 0 B]                                    7,429 kB/s 0s[0m[33m99% [Working]                                                  7,429 kB/s 0s[0m[33m99% [12 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m99% [Working]                                                  7,429 kB/s 0s[0m[33m99% [13 Packages store 0 B]                                    7,429 kB/s 0s[0m[33m99% [Working]                                                  7,429 kB/s 0s[0m[33m99% [14 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m100% [Working]                                                 7,429 kB/s 0s[0m                                                                            Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 66%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... Done
+[33m
+0% [Connecting to http.kali.org][0m[33m
+0% [3 Packages store 0 B] [Connecting to http.kali.org] [Waiting for headers[0m[33m
+                                                                            
+0% [Connecting to http.kali.org] [Waiting for headers][0m
+                                                      
+Get:4 http://packages.microsoft.com/repos/code stable/main amd64 Packages [23.9 kB]
+[33m
+0% [Connecting to http.kali.org] [4 Packages 14.0 kB/23.9 kB 59%][0m[33m
+                                                                 
+0% [Connecting to http.kali.org] [Waiting for headers][0m
+                                                      
+Get:5 http://packages.microsoft.com/repos/code stable/main arm64 Packages [23.9 kB]
+[33m
+0% [Connecting to http.kali.org] [5 Packages 15.7 kB/23.9 kB 66%][0m[33m
+0% [4 Packages store 0 B] [Connecting to http.kali.org] [5 Packages 15.7 kB/[0m[33m
+                                                                            
+0% [Connecting to http.kali.org] [5 Packages 15.7 kB/23.9 kB 66%][0m[33m
+                                                                 
+0% [Connecting to http.kali.org][0m[33m
+0% [5 Packages store 0 B] [Connecting to http.kali.org][0m[33m
+                                                       
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m
+                                
+Get:6 https://packages.microsoft.com/repos/vscode stable InRelease [3,593 B]
+[33m
+0% [Connecting to http.kali.org] [6 InRelease 3,593 B/3,593 B 100%][0m[33m
+                                                                   
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m
+                                
+Get:7 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [26.5 kB]
+[33m
+0% [Connecting to http.kali.org] [7 Packages 16.0 kB/26.5 kB 60%][0m[33m
+                                                                 
+0% [Connecting to http.kali.org][0m[33m
+0% [7 Packages store 0 B] [Connecting to http.kali.org][0m[33m
+                                                       
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m[33m
+                                
+0% [Working][0m
+            
+Get:8 http://mirror.truenetwork.ru/kali kali-rolling InRelease [41.2 kB]
+[33m
+0% [8 InRelease 11.3 kB/41.2 kB 27%][0m[33m
+                                    
+0% [Working][0m[33m
+18% [Working][0m
+             
+Get:9 http://mirror.truenetwork.ru/kali kali-rolling/main amd64 Packages [19.4 MB]
+[33m
+18% [9 Packages 4,096 B/19.4 MB 0%][0m[33m
+22% [9 Packages 3,290 kB/19.4 MB 17%][0m[33m
+29% [9 Packages 9,193 kB/19.4 MB 47%][0m[33m
+                                     
+36% [9 Packages 15.0 MB/19.4 MB 77%][0m[33m
+                                    
+41% [Working][0m[33m
+41% [Waiting for headers] [9 Packages store 0 B][0m
+                                                
+Get:10 http://mirror.truenetwork.ru/kali kali-rolling/main amd64 Contents (deb) [45.9 MB]
+[33m
+41% [10 Contents-amd64 0 B/45.9 MB 0%] [9 Packages store 0 B][0m[33m
+47% [10 Contents-amd64 4,682 kB/45.9 MB 10%] [9 Packages store 0 B][0m[33m
+52% [10 Contents-amd64 9,113 kB/45.9 MB 20%] [9 Packages store 0 B][0m[33m
+55% [10 Contents-amd64 11.0 MB/45.9 MB 24%]                   3,254 kB/s 11s[0m[33m
+60% [10 Contents-amd64 15.6 MB/45.9 MB 34%]                    3,254 kB/s 9s[0m[33m
+66% [10 Contents-amd64 20.4 MB/45.9 MB 45%]                    3,254 kB/s 8s[0m[33m
+72% [10 Contents-amd64 25.3 MB/45.9 MB 55%]                    3,254 kB/s 6s[0m[33m
+78% [10 Contents-amd64 30.2 MB/45.9 MB 66%]                    3,254 kB/s 5s[0m[33m
+84% [10 Contents-amd64 35.3 MB/45.9 MB 77%]                    3,254 kB/s 3s[0m[33m
+90% [10 Contents-amd64 40.3 MB/45.9 MB 88%]                    3,254 kB/s 2s[0m[33m
+96% [10 Contents-amd64 45.3 MB/45.9 MB 99%]                    3,254 kB/s 0s[0m[33m
+96% [10 Contents-amd64 45.9 MB/45.9 MB 100%]                   3,254 kB/s 0s[0m[33m
+96% [Waiting for headers]                                      3,254 kB/s 0s[0m
+                                                                            
+Get:11 http://mirror.truenetwork.ru/kali kali-rolling/contrib amd64 Packages [122 kB]
+[33m
+96% [11 Packages 138 B/122 kB 0%]                              3,254 kB/s 0s[0m[33m
+                                                                            
+96% [11 Packages 65.7 kB/122 kB 54%] [10 Contents-amd64 store 0 B][0m[33m
+96% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m
+                                                                            
+Get:12 http://mirror.truenetwork.ru/kali kali-rolling/contrib amd64 Contents (deb) [294 kB]
+[33m
+                                                                            
+96% [12 Contents-amd64 0 B/294 kB 0%] [10 Contents-amd64 store 0 B][0m[33m
+97% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m
+                                                                            
+Get:13 http://mirror.truenetwork.ru/kali kali-rolling/non-free amd64 Packages [226 kB]
+[33m
+97% [13 Packages 0 B/226 kB 0%] [10 Contents-amd64 store 0 B]  3,254 kB/s 0s[0m[33m
+97% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m
+                                                                            
+Get:14 http://mirror.truenetwork.ru/kali kali-rolling/non-free amd64 Contents (deb) [914 kB]
+[33m
+                                                                            
+97% [14 Contents-amd64 0 B/914 kB 0%] [10 Contents-amd64 store 0 B][0m[33m
+98% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              3,254 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [10 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+98% [Working]                                                  7,429 kB/s 0s[0m[33m
+98% [11 Packages store 0 B]                                    7,429 kB/s 0s[0m[33m
+99% [Working]                                                  7,429 kB/s 0s[0m[33m
+99% [12 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+99% [Working]                                                  7,429 kB/s 0s[0m[33m
+99% [13 Packages store 0 B]                                    7,429 kB/s 0s[0m[33m
+99% [Working]                                                  7,429 kB/s 0s[0m[33m
+99% [14 Contents-amd64 store 0 B]                              7,429 kB/s 0s[0m[33m
+100% [Working]                                                 7,429 kB/s 0s[0m
+                                                                            
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 66%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... Done
+
 [1;33mW: [0mGPG error: https://packages.nginx.org/unit/ubuntu jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62[0m
 [1;31mE: [0mThe repository 'https://packages.nginx.org/unit/ubuntu jammy InRelease' is not signed.[0m
 [33mN: [0mUpdating from such a repository can't be done securely, and is therefore disabled by default.[0m
 [33mN: [0mSee apt-secure(8) manpage for repository creation and user configuration details.[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit[27m[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit[16D[4ms[4mu[4ma[4mp[4mt[24m install unit[16D[4md[4ma[4mp[4mt[24m install unit[16D[4mo[4ma[4mp[4mt[24m install unit[16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit[16D[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit[27m[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit[16D[4ms[4mu[4ma[4mp[4mt[24m install unit[16D[4md[4ma[4mp[4mt[24m install unit[16D[4mo[4ma[4mp[4mt[24m install unit[16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit[16D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package unit[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36msystemctl[39m[7m restart unit[27m[22D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27mr[27me[27ms[27mt[27ma[27mr[27mt[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36msystemctl[39m[7m restart unit[27m[22D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27mr[27me[27ms[27mt[27ma[27mr[27mt[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+
 [0;1;31mFailed to restart unit.service: Unit unit.service not found.[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36msystemctl[39m restart unit[39m[4ms[39m[4ms[39m[4my[39m[4ms[39m[4mt[39m[4me[39m[4mm[39m[4mc[39m[4mt[4ml[24m restart unit[22D[4ms[4mu[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4md[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4mo[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ms[24m[36my[24m[36ms[24m[36mt[24m[36me[24m[36mm[24m[36mc[24m[36mt[36ml[39m restart unit[22D[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36msystemctl[39m restart unit[39m[4ms[39m[4ms[39m[4my[39m[4ms[39m[4mt[39m[4me[39m[4mm[39m[4mc[39m[4mt[4ml[24m restart unit[22D[4ms[4mu[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4md[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4mo[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ms[24m[36my[24m[36ms[24m[36mt[24m[36me[24m[36mm[24m[36mc[24m[36mt[36ml[39m restart unit[22D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
 [0;1;31mFailed to restart unit.service: Unit unit.service not found.[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4munitd[24m [7m[32m--version[27m[39m[15D[27m[4mu[27m[4mn[27m[4mi[27m[4mt[27m[4md[24m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[39m[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4munitd[24m [7m[32m--version[27m[39m[15D[27m[4mu[27m[4mn[27m[4mi[27m[4mt[27m[4md[24m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[39m[?1l>[?2004l
+
 Command 'unitd' not found, did you mean:
   command 'units' from deb units
 Try: sudo apt install <deb name>
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mapt[39m[7m install[27m[38;2;153;153;153m unit[39m[16D[27m[39m[4mu[27m[39m[4mn[27m[39m[4mi[27m[39m[4mt[27m[4md[24m[27m[39m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[39m[27m [39m [39m [39m [39m [39m [15D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [36ma[36mp[36mt[39m[39m [39mi[39mn[39ms[39mt[39ma[39mll [38;2;153;153;153munit[39m[39mu[39mn[39mi[39mt[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
+
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mapt[39m[7m install[27m[38;2;153;153;153m unit[39m[16D[27m[39m[4mu[27m[39m[4mn[27m[39m[4mi[27m[39m[4mt[27m[4md[24m[27m[39m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[39m[27m [39m [39m [39m [39m [39m [15D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [36ma[36mp[36mt[39m[39m [39mi[39mn[39ms[39mt[39ma[39mll [38;2;153;153;153munit[39m[39mu[39mn[39mi[39mt[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package unit[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit[27m[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit[27m[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+
 [1;31mE: [0mCould not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)[0m
 [1;31mE: [0mUnable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m install unit[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit[16D[4ms[4mu[4ma[4mp[4mt[24m install unit[16D[4md[4ma[4mp[4mt[24m install unit[16D[4mo[4ma[4mp[4mt[24m install unit[16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit[16D[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m install unit[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit[16D[4ms[4mu[4ma[4mp[4mt[24m install unit[16D[4md[4ma[4mp[4mt[24m install unit[16D[4mo[4ma[4mp[4mt[24m install unit[16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit[16D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package unit[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo apt install unit[39m[20D[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [7m[36mc[7m[36mu[7m[36mr[7m[36ml[39m[39m[7m [7m[32m-[7m[32m-[7m[32mo[7m[32mu[7m[32mt[7m[32mp[7m[32mu[7m[32mt[39m[39m[7m [39m[7m/[39m[7mu[7msr/share/keyrings/nginx-keyring.gpg  \[27m
-[7m      https://unit.nginx.org/keys/nginx-keyring.gpg[27m[K[A[42D[27m[36mc[27m[36mu[27m[36mr[27m[36ml[39m[27m [27m[32m-[27m[32m-[27m[32mo[27m[32mu[27m[32mt[27m[32mp[27m[32mu[27m[32mt[39m[27m [27m/[27mu[27ms[27mr[27m/[27ms[27mh[27ma[27mr[27me[27m/[27mk[27me[27my[27mr[27mi[27mn[27mg[27ms[27m/[27mn[27mg[27mi[27mn[27mx[27m-[27mk[27me[27my[27mr[27mi[27mn[27mg[27m.[27mg[27mp[27mg[27m [27m [27m\[1B[27m [27m [27m [27m [27m [27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mu[27mn[27mi[27mt[27m.[27mn[27mg[27mi[27mn[27mx[27m.[27mo[27mr[27mg[27m/[27mk[27me[27my[27ms[27m/[27mn[27mg[27mi[27mn[27mx[27m-[27mk[27me[27my[27mr[27mi[27mn[27mg[27m.[27mg[27mp[27mg[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo apt install unit[39m[20D[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [7m[36mc[7m[36mu[7m[36mr[7m[36ml[39m[39m[7m [7m[32m-[7m[32m-[7m[32mo[7m[32mu[7m[32mt[7m[32mp[7m[32mu[7m[32mt[39m[39m[7m [39m[7m/[39m[7mu[7msr/share/keyrings/nginx-keyring.gpg  \[27m
+
+[7m      https://unit.nginx.org/keys/nginx-keyring.gpg[27m[K[A[42D[27m[36mc[27m[36mu[27m[36mr[27m[36ml[39m[27m [27m[32m-[27m[32m-[27m[32mo[27m[32mu[27m[32mt[27m[32mp[27m[32mu[27m[32mt[39m[27m [27m/[27mu[27ms[27mr[27m/[27ms[27mh[27ma[27mr[27me[27m/[27mk[27me[27my[27mr[27mi[27mn[27mg[27ms[27m/[27mn[27mg[27mi[27mn[27mx[27m-[27mk[27me[27my[27mr[27mi[27mn[27mg[27m.[27mg[27mp[27mg[27m [27m [27m\[1B
+[27m [27m [27m [27m [27m [27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mu[27mn[27mi[27mt[27m.[27mn[27mg[27mi[27mn[27mx[27m.[27mo[27mr[27mg[27m/[27mk[27me[27my[27ms[27m/[27mn[27mg[27mi[27mn[27mx[27m-[27mk[27me[27my[27mr[27mi[27mn[27mg[27m.[27mg[27mp[27mg[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1067  100  1067    0     0   1991      0 --:--:-- --:--:-- --:--:--  1994
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mcurl[39m [32m--output[39m [1m/usr/share/keyrings/nginx-keyring.gpg[0m  \
-      https://unit.nginx.org/keys/nginx-keyring.gpg[K[A[47D[5C[36ma[36mp[36mt[39m[39m i[39mn[39ms[39mt[39ma[39ml[39ml[39m [39mun[0mi[0mt[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [2C [1B[K[A[25C[21D[5P[16C     [16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m install unit[21D[39m[4mu[39m[4mn[39m[4mi[39m[4mt[4md[24m[39m [32m-[32m-[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m      [15D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [36ms[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m[39m restart unit[27D[5P[22C     [22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [36ma[36mp[36mt[39m[39m install unit [12Dupdate      [15D[5P[10C     [10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m update[15D[5P[10C     [10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mc[36ma[36mt[39m [1m/[1metc/apt/sources.list.d/unit.list[0m[37D[36mn[36ma[36mn[36mo[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[43D[5P[38C     [38D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [0m[36mn[0m[36ma[0m[36mn[0m[36mo[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.list[0m[?1l>[?2004l[1Bsudo: unable to resolve host CodeNick: Name or service not known
-[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;32H(B[0;7m[ Reading... ](B[m[25;31H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngin(B[0;7m>[3;1H(B[0m[33mdeb-src(B[0;1m[36m [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [32mhttps://packages.n[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l[25;24H(B[0;7m[ ^W = Ctrl+W    M-W = Alt+W ](B[m[?12l[?25h[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[25;10H(B[0;7m[ line  1/3 (33%), col  1/106 (  0%), char   0/215 ( 0%) ](B[m[?12l[?25h[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;59H(B[0;7m*[76G(B[m[?12l[?25h[2dz deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngiz[?25l[?12l[?25hdeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginz[?25l[?12l[?25heb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginxz[?25l[?12l[?25hb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.z[?25l[?12l[?25h [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.oz[?25l[?12l[?25h[signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.orz[?25l[?12l[?25hsigned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.orgz[?25l[?12l[?25higned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/z[?25l[?12l[?25hgned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/uz[?25l[?12l[?25hned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unz[?25l[?12l[?25hed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/uniz[?25l[?12l[?25hd-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unitz[?25l[?12l[?25h-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/z[?25l[?12l[?25hby=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/uz[?25l[?12l[?25hy=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubz[?25l[?12l[?25h=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuz[?25l[?12l[?25h/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubunz[?25l[25d[K[?12l[?25h[2dzusr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntz[?25l[?12l[?25hsr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntuz[?25l[?12l[?25hr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/z[?25l[?12l[?25h/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ z[?25l[?12l[?25hshare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jz[?25l[?12l[?25hhare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jaz[?25l[?12l[?25hare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jamz[?25l[?12l[?25hre/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jamz[?25l[?12l[?25he/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammyz[?25l[?12l[?25h/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy z[?25l[?12l[?25hkeyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy uz[?25l[?12l[?25heyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unz[?25l[?12l[?25hyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unit[2;2H[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h unit[Kz[?25l[?12l[?25hunit[Kz[?25l[?12l[?25hnit[Kz[?25l[?12l[?25hit[K[?25l[?12l[?25ht[K[?25l[?12l[?25h [?25ldeb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.(B[0;7m>[3;1H(B[m[K[Az[?12l[?25h[?25l[?12l[?25heb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nz[?25l[?12l[?25hb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngz[?25l[?12l[?25h-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngiz[?25l[?12l[?25hsrc [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginz[?25l[?12l[?25hrc [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginxz[?25l[?12l[?25hc [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.z[?25l[?12l[?25h [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.oz[?25l[?12l[?25h[signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.orz[?25l[?12l[?25hsigned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.orgz[?25l[?12l[?25higned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/z[?25l[?12l[?25hgned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/uz[?25l[?12l[?25hned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unz[?25l[?12l[?25hed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/uniz[?25l[?12l[?25hd-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unitz[?25l[?12l[?25h-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/z[?25l[?12l[?25hby=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/uz[?25l[?12l[?25hy=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubz[?25l[?12l[?25h=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuz[?25l[?12l[?25h/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubunz[?25l[?12l[?25husr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntz[?25l[?12l[?25hsr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntuz[?25l[?12l[?25hr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/z[?25l[?12l[?25h/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ z[?25l[?12l[?25hshare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jz[?25l[?12l[?25hhare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jaz[?25l[?12l[?25hare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jamz[?25l[?12l[?25hre/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jamz[?25l[?12l[?25he/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammyz[?25l[?12l[?25h/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy z[?25l[?12l[?25hkeyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy uz[?25l[?12l[?25heyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unz[?25l[?12l[?25hyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unit[2;2H[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h unit[Kz[?25l[?12l[?25hunit[Kz[?25l[?12l[?25hnit[Kz[?25l[?12l[?25hit[K[?25l[?12l[?25ht[K[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[K[?25l[33mdeb(B[0;1m[36m [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [32mhttps://packages.nginx[39m(B[0;7m>[3;1H(B[0m[33mdeb-src(B[0;1m[36m [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [32mhttps://packages.n[39m(B[0;7m>[4;1H(B[m[?12l[?25h[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l[25;31H[1K (B[0;7m[ Writing... ](B[m[K[1;59H(B[0;7m [76G(B[m[25;31H(B[0;7m[ Wrote 3 lines ](B[m[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[4d[?25l[25;27H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[4d[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mnano[39m [1m/etc/apt/sources.list.d/unit.list[0m[1C[39m[4mn[39m[4ma[39m[4mn[24m[P[34C [35D[4ma[24m[P[34C [35D[4mn[24m[P[34C [35D[P[34C [35D[4mc[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[4mc[4ma[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[24m[36mc[24m[36ma[36mt[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[1C[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[P[33C [35D[?1l>[?2004l
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  1067  100  1067    0     0   1991      0 --:--:-- --:--:-- --:--:--  1994
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mcurl[39m [32m--output[39m [1m/usr/share/keyrings/nginx-keyring.gpg[0m  \
+
+      https://unit.nginx.org/keys/nginx-keyring.gpg[K[A[47D[5C[36ma[36mp[36mt[39m[39m i[39mn[39ms[39mt[39ma[39ml[39ml[39m [39mun[0mi[0mt[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [2C [1B
+[K[A[25C[21D[5P[16C     [16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m install unit[21D[39m[4mu[39m[4mn[39m[4mi[39m[4mt[4md[24m[39m [32m-[32m-[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m      [15D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [36ms[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m[39m restart unit[27D[5P[22C     [22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [36ma[36mp[36mt[39m[39m install unit [12Dupdate      [15D[5P[10C     [10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m update[15D[5P[10C     [10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mc[36ma[36mt[39m [1m/[1metc/apt/sources.list.d/unit.list[0m[37D[36mn[36ma[36mn[36mo[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[43D[5P[38C     [38D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [0m[36mn[0m[36ma[0m[36mn[0m[36mo[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.list[0m[?1l>[?2004l[1B
+sudo: unable to resolve host CodeNick: Name or service not known
+[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;32H(B[0;7m[ Reading... ](B[m[25;31H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2          /etc/apt/sources.list.d/unit.list                    [1;76H(B[m
+[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute
+[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify
+[2d deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngin(B[0;7m>[3;1H(B[0m[33mdeb-src(B[0;1m[36m [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [32mhttps://packages.n[39m(B[0;7m>[2;1H(B[m[?12l[?25h[?25l[25;24H(B[0;7m[ ^W = Ctrl+W    M-W = Alt+W ](B[m[?12l[?25h
+[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[25;10H(B[0;7m[ line  1/3 (33%), col  1/106 (  0%), char   0/215 ( 0%) ](B[m[?12l[?25h
+[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;59H(B[0;7m*[76G(B[m[?12l[?25h
+[2dz deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngi
+z[?25l[?12l[?25hdeb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngin
+z[?25l[?12l[?25heb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx
+z[?25l[?12l[?25hb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.
+z[?25l[?12l[?25h [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.o
+z[?25l[?12l[?25h[signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.or
+z[?25l[?12l[?25hsigned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org
+z[?25l[?12l[?25higned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/
+z[?25l[?12l[?25hgned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/u
+z[?25l[?12l[?25hned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/un
+z[?25l[?12l[?25hed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/uni
+z[?25l[?12l[?25hd-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit
+z[?25l[?12l[?25h-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/
+z[?25l[?12l[?25hby=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/u
+z[?25l[?12l[?25hy=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ub
+z[?25l[?12l[?25h=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubu
+z[?25l[?12l[?25h/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubun
+z[?25l[25d[K[?12l[?25h[2dzusr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubunt
+z[?25l[?12l[?25hsr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu
+z[?25l[?12l[?25hr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/
+z[?25l[?12l[?25h/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ 
+z[?25l[?12l[?25hshare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ j
+z[?25l[?12l[?25hhare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ ja
+z[?25l[?12l[?25hare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jam
+z[?25l[?12l[?25hre/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jam
+z[?25l[?12l[?25he/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy
+z[?25l[?12l[?25h/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy 
+z[?25l[?12l[?25hkeyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy u
+z[?25l[?12l[?25heyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy un
+z[?25l[?12l[?25hyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unit[2;2H[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h unit[K
+z[?25l[?12l[?25hunit[K
+z[?25l[?12l[?25hnit[K
+z[?25l[?12l[?25hit[K[?25l[?12l[?25ht[K[?25l[?12l[?25h [?25ldeb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.(B[0;7m>[3;1H(B[m[K[Az[?12l[?25h[?25l[?12l[?25heb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.n
+z[?25l[?12l[?25hb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ng
+z[?25l[?12l[?25h-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngi
+z[?25l[?12l[?25hsrc [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.ngin
+z[?25l[?12l[?25hrc [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx
+z[?25l[?12l[?25hc [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.
+z[?25l[?12l[?25h [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.o
+z[?25l[?12l[?25h[signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.or
+z[?25l[?12l[?25hsigned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org
+z[?25l[?12l[?25higned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/
+z[?25l[?12l[?25hgned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/u
+z[?25l[?12l[?25hned-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/un
+z[?25l[?12l[?25hed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/uni
+z[?25l[?12l[?25hd-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit
+z[?25l[?12l[?25h-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/
+z[?25l[?12l[?25hby=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/u
+z[?25l[?12l[?25hy=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ub
+z[?25l[?12l[?25h=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubu
+z[?25l[?12l[?25h/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubun
+z[?25l[?12l[?25husr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubunt
+z[?25l[?12l[?25hsr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu
+z[?25l[?12l[?25hr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/
+z[?25l[?12l[?25h/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ 
+z[?25l[?12l[?25hshare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ j
+z[?25l[?12l[?25hhare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ ja
+z[?25l[?12l[?25hare/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jam
+z[?25l[?12l[?25hre/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jam
+z[?25l[?12l[?25he/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy
+z[?25l[?12l[?25h/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy 
+z[?25l[?12l[?25hkeyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy u
+z[?25l[?12l[?25heyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy un
+z[?25l[?12l[?25hyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ jammy unit[2;2H[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h unit[K
+z[?25l[?12l[?25hunit[K
+z[?25l[?12l[?25hnit[K
+z[?25l[?12l[?25hit[K[?25l[?12l[?25ht[K[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[K[?25l[33mdeb(B[0;1m[36m [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [32mhttps://packages.nginx[39m(B[0;7m>[3;1H(B[0m[33mdeb-src(B[0;1m[36m [signed-by=/usr/share/keyrings/nginx-keyring.gpg] [32mhttps://packages.n[39m(B[0;7m>[4;1H(B[m[?12l[?25h[?25l[26;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K
+[25d(B[0;7mFile Name to Write: /etc/apt/sources.list.d/unit.list                        [25;54H(B[m[?12l[?25h[?25l[25;31H[1K (B[0;7m[ Writing... ](B[m[K[1;59H(B[0;7m [76G(B[m[25;31H(B[0;7m[ Wrote 3 lines ](B[m[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h
+[4d[?25l[25;27H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h
+[4d[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t
+[?1l>[?2004l                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mnano[39m [1m/etc/apt/sources.list.d/unit.list[0m[1C[39m[4mn[39m[4ma[39m[4mn[24m[P[34C [35D[4ma[24m[P[34C [35D[4mn[24m[P[34C [35D[P[34C [35D[4mc[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[4mc[4ma[24m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[24m[36mc[24m[36ma[36mt[39m[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[1C[0m [1m/[1me[1mt[1mc[1m/[1ma[1mp[1mt[1m/[1ms[1mo[1mu[1mr[1mc[1me[1ms[1m.[1ml[1mi[1ms[1mt[1m.[1md[1m/[1mu[1mn[1mi[1mt[1m.[1ml[1mi[1ms[1mt[0m[34D[P[33C [35D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
 deb [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ lunar unit
 deb-src [signed-by=/usr/share/keyrings/nginx-keyring.gpg] https://packages.nginx.org/unit/ubuntu/ lunar unit
 
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo cat /etc/apt/sources.list.d/unit.list[39m[41D[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [7m[36ma[7m[36mp[7m[36mt[39m[39m[7m [39m[7mu[39m[7mp[39m[7md[39m[7ma[39m[7mt[39m[7me[27m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[10D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mu[27mp[27md[27ma[27mt[27me[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo cat /etc/apt/sources.list.d/unit.list[39m[41D[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [7m[36ma[7m[36mp[7m[36mt[39m[39m[7m [39m[7mu[39m[7mp[39m[7md[39m[7ma[39m[7mt[39m[7me[27m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[10D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mu[27mp[27md[27ma[27mt[27me[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-[33m0% [Working][0m            Hit:1 http://packages.microsoft.com/repos/code stable InRelease
-[33m0% [Waiting for headers] [Connected to packages.microsoft.com (13.81.215.193[0m                                                                            Get:2 https://packages.nginx.org/unit/ubuntu lunar InRelease [2,806 B]
-[33m0% [Waiting for headers] [Connected to packages.microsoft.com (13.81.215.193[0m                                                                            Hit:3 https://packages.microsoft.com/repos/vscode stable InRelease
-[33m                                                                            0% [Waiting for headers][0m[33m                        0% [Working][0m[33m0% [Working][0m[33m0% [Connecting to mirror.truenetwork.ru (94.247.111.11)][0m                                                        Get:5 https://packages.nginx.org/unit/ubuntu lunar/unit amd64 Packages [10.9 kB]
-[33m0% [Waiting for headers] [5 Packages 10.9 kB/10.9 kB 100%][0m[33m                                                          0% [Waiting for headers][0m                        Hit:4 http://mirror.truenetwork.ru/kali kali-rolling InRelease
-[33m                        0% [Working][0m[33m0% [5 Packages store 0 B][0m[33m                         0% [Working][0m[33m0% [Working][0m[33m100% [Working][0m              Fetched 13.8 kB in 1s (14.7 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 82%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+[33m
+0% [Working][0m
+            
+Hit:1 http://packages.microsoft.com/repos/code stable InRelease
+[33m
+0% [Waiting for headers] [Connected to packages.microsoft.com (13.81.215.193[0m
+                                                                            
+Get:2 https://packages.nginx.org/unit/ubuntu lunar InRelease [2,806 B]
+[33m
+0% [Waiting for headers] [Connected to packages.microsoft.com (13.81.215.193[0m
+                                                                            
+Hit:3 https://packages.microsoft.com/repos/vscode stable InRelease
+[33m
+                                                                            
+0% [Waiting for headers][0m[33m
+                        
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Connecting to mirror.truenetwork.ru (94.247.111.11)][0m
+                                                        
+Get:5 https://packages.nginx.org/unit/ubuntu lunar/unit amd64 Packages [10.9 kB]
+[33m
+0% [Waiting for headers] [5 Packages 10.9 kB/10.9 kB 100%][0m[33m
+                                                          
+0% [Waiting for headers][0m
+                        
+Hit:4 http://mirror.truenetwork.ru/kali kali-rolling InRelease
+[33m
+                        
+0% [Working][0m[33m
+0% [5 Packages store 0 B][0m[33m
+                         
+0% [Working][0m[33m
+0% [Working][0m[33m
+100% [Working][0m
+              
+Fetched 13.8 kB in 1s (14.7 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 82%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 1175 packages can be upgraded. Run 'apt list --upgradable' to see them.
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit[27m[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit[27m[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+
 [1;31mE: [0mCould not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)[0m
 [1;31mE: [0mUnable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m install unit[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit[16D[4ms[4mu[4ma[4mp[4mt[24m install unit[16D[4md[4ma[4mp[4mt[24m install unit[16D[4mo[4ma[4mp[4mt[24m install unit[16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit[16D[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m install unit[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit[16D[4ms[4mu[4ma[4mp[4mt[24m install unit[16D[4md[4ma[4mp[4mt[24m install unit[16D[4mo[4ma[4mp[4mt[24m install unit[16D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit[16D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 The following NEW packages will be installed:
   unit
 0 upgraded, 1 newly installed, 0 to remove and 1175 not upgraded.
 Need to get 753 kB of archives.
 After this operation, 3,104 kB of additional disk space will be used.
-[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 https://packages.nginx.org/unit/ubuntu lunar/unit amd64 unit amd64 1.31.1-1~lunar [753 kB]
-[33m1% [1 unit 12.3 kB/753 kB 2%][0m[33m                             100% [Working][0m              Fetched 753 kB in 1s (864 kB/s)
+[33m
+0% [Working][0m[33m
+0% [Waiting for headers][0m
+                        
+Get:1 https://packages.nginx.org/unit/ubuntu lunar/unit amd64 unit amd64 1.31.1-1~lunar [753 kB]
+[33m
+1% [1 unit 12.3 kB/753 kB 2%][0m[33m
+                             
+100% [Working][0m
+              
+Fetched 753 kB in 1s (864 kB/s)
 
 7[0;26r8[1ASelecting previously unselected package unit.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 401431 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 401431 files and directories currently installed.)
 Preparing to unpack .../unit_1.31.1-1~lunar_amd64.deb ...
 7[27;0f[42m[30mProgress: [  0%][49m[39m [.......................................................] 87[27;0f[42m[30mProgress: [ 20%][49m[39m [###########............................................] 8----------------------------------------------------------------------
 
@@ -170,20 +792,53 @@ Unpacking unit (1.31.1-1~lunar) ...
 7[27;0f[42m[30mProgress: [ 80%][49m[39m [############################################...........] 8Processing triggers for man-db (2.11.2-3) ...
 Processing triggers for kali-menu (2023.4.3) ...
 
-7[0;27r8[1A[J                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 [7mu[7mnit-jsc20  \[27m[K
-[7m              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[27m[K[A[A[64D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[27m-[27md[27me[27mv[27m [27mu[27mn[27mi[27mt[27m-[27mg[27mo[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m1[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m7[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m8[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m9[27m u[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m2[27m0[27m [27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27mu[27mn[27mi[27mt[27m-[27mp[27me[27mr[27ml[27m [27mu[27mn[27mi[27mt[27m-[27mp[27mh[27mp[27m [27mu[27mn[27mi[27mt[27m-[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m.[27m1[27m1[27m [27mu[27mn[27mi[27mt[27m-[27mr[27mu[27mb[27my[27m [27mu[27mn[27mi[27mt[27m-[27mw[27ma[27ms[27mm[?1l>[?2004l
+7[0;27r8[1A[J                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mapt[39m[7m install unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 [7mu[7mnit-jsc20  \[27m[K
+
+[7m              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[27m[K[A[A[64D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[27m-[27md[27me[27mv[27m [27mu[27mn[27mi[27mt[27m-[27mg[27mo[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m1[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m7[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m8[27m [27mu[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m1[27m9[27m u[27mn[27mi[27mt[27m-[27mj[27ms[27mc[27m2[27m0[27m [27m [27m\[1B
+[27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27m [27mu[27mn[27mi[27mt[27m-[27mp[27me[27mr[27ml[27m [27mu[27mn[27mi[27mt[27m-[27mp[27mh[27mp[27m [27mu[27mn[27mi[27mt[27m-[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m.[27m1[27m1[27m [27mu[27mn[27mi[27mt[27m-[27mr[27mu[27mb[27my[27m [27mu[27mn[27mi[27mt[27m-[27mw[27ma[27ms[27mm[?1l>[?2004l
+
 [1;31mE: [0mCould not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)[0m
 [1;31mE: [0mUnable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m install unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 unit-jsc20  \[K
-              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[K[A[A[4C[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[10C8 unit-jsc19 unit-jsc20  \[A[9D[4ms[4mu[4ma[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[10C8 unit-jsc19 unit-jsc20  \[A[9D[4md[4ma[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[10C8 unit-jsc19 unit-jsc20  \[A[9D[4mo[4ma[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[9C18 unit-jsc19 unit-jsc20  \[A[9D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit-dev unit-go[10P[10C1[10C7[8Cc18 unit-jsc19 unit-jsc20  \[A[9D[?1l>[?2004l[2B
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mapt[39m install unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 unit-jsc20  \[K
+
+              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[K[A[A[4C[39m[4ms[39m[4ma[39m[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[10C8 unit-jsc19 unit-jsc20  \[A[9D[4ms[4mu[4ma[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[10C8 unit-jsc19 unit-jsc20  \[A[9D[4md[4ma[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[10C8 unit-jsc19 unit-jsc20  \[A[9D[4mo[4ma[4mp[4mt[24m install unit-dev unit-go[10P[10C1[10C7[9C18 unit-jsc19 unit-jsc20  \[A[9D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[36mt[39m install unit-dev unit-go[10P[10C1[10C7[8Cc18 unit-jsc19 unit-jsc20  \[A[9D[?1l>[?2004l[2B
+
 sudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 Some packages could not be installed. This may mean that you have
 requested an impossible situation or if you are using the unstable
 distribution that some required packages have not yet been created
@@ -195,23 +850,58 @@ The following packages have unmet dependencies:
  unit-jsc19 : Depends: openjdk-19-jre-headless but it is not installable
  unit-jsc20 : Depends: openjdk-20-jre-headless but it is not installable
 [1;31mE: [0mUnable to correct problems, you have held broken packages.[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36msystemctl[39m[7m restart unit[27m[22D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27mr[27me[27ms[27mt[27ma[27mr[27mt[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36msystemctl[39m[7m restart unit[27m[22D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27mr[27me[27ms[27mt[27ma[27mr[27mt[27m [27mu[27mn[27mi[27mt[?1l>[?2004l
+
 [0;1;31mFailed to restart unit.service: Access denied[0m
 [0;1;31mSee system logs and 'systemctl status unit.service' for details.[0m
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36msystemctl[39m restart unit[39m[4ms[39m[4ms[39m[4my[39m[4ms[39m[4mt[39m[4me[39m[4mm[39m[4mc[39m[4mt[4ml[24m restart unit[22D[4ms[4mu[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4md[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4mo[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ms[24m[36my[24m[36ms[24m[36mt[24m[36me[24m[36mm[24m[36mc[24m[36mt[36ml[39m restart unit[22D[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36msystemctl[39m restart unit[39m[4ms[39m[4ms[39m[4my[39m[4ms[39m[4mt[39m[4me[39m[4mm[39m[4mc[39m[4mt[4ml[24m restart unit[22D[4ms[4mu[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4md[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4mo[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ms[24m[36my[24m[36ms[24m[36mt[24m[36me[24m[36mm[24m[36mc[24m[36mt[36ml[39m restart unit[22D[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36msystemctl[39m restart unit[27D[5P[22C     [39m[4ms[39m[4ms[39m[4my[39m[4ms[39m[4mt[39m[4me[39m[4mm[39m[4mc[39m[4mt[4ml[24m restart unit[22D[4ms[4mu[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4md[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4mo[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[24m[36mt[39m[24m [24mi[24mn[24ms[24mtall unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 unit-jsc20  \[K
-              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[K[A[A[60D[1C[1C[1C[39m[4ma[39m[4mp[39m[4m-[4mt[24m install unit-dev unit-go[10P[10C1[10C7[7Csc18 unit-jsc19 unit-jsc20  \[A[24m[36ma[24m[36mp[24m[36mt[39m[P[64Cjs[P[17C [A[8D[1C[1C[39m[4ma[39m[4mp[39m[4mt[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m[P[57Csc[P[16C [A[4m-[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[8Cc18 unit-jsc19 unit-jsc20  \[A[4mg[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[7Csc18 unit-jsc19 unit-jsc20  \[A[4me[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[6Cjsc18 unit-jsc19 unit-jsc20  \[A[4mt[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[5C-jsc18 unit-jsc19 unit-jsc20  \[A[24m[36ma[24m[36mp[24m[36mt[24m[36m-[24m[36mg[24m[36me[24m[36mt[39m[24m [24mi[24mn[24ms[24mt[24ma[24mll unit-dev unit-go[10P[10C1[10C7[4Ct-jsc18 unit-jsc19 unit-jsc20  \[A[?1l>[?2004l[2B
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36msystemctl[39m restart unit[27D[5P[22C     [39m[4ms[39m[4ms[39m[4my[39m[4ms[39m[4mt[39m[4me[39m[4mm[39m[4mc[39m[4mt[4ml[24m restart unit[22D[4ms[4mu[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4md[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4mo[4ms[4my[4ms[4mt[4me[4mm[4mc[4mt[4ml[24m restart unit[22D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mp[24m[36mt[39m[24m [24mi[24mn[24ms[24mtall unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 unit-jsc20  \[K
+
+              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[K[A[A[60D[1C[1C[1C[39m[4ma[39m[4mp[39m[4m-[4mt[24m install unit-dev unit-go[10P[10C1[10C7[7Csc18 unit-jsc19 unit-jsc20  \[A[24m[36ma[24m[36mp[24m[36mt[39m[P[64Cjs[P[17C [A[8D[1C[1C[39m[4ma[39m[4mp[39m[4mt[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m[P[57Csc[P[16C [A[4m-[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[8Cc18 unit-jsc19 unit-jsc20  \[A[4mg[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[7Csc18 unit-jsc19 unit-jsc20  \[A[4me[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[6Cjsc18 unit-jsc19 unit-jsc20  \[A[4mt[4mi[4mn[4ms[4mt[4ma[4ml[4ml[24m unit-dev unit-go[10P[10C1[10C7[5C-jsc18 unit-jsc19 unit-jsc20  \[A[24m[36ma[24m[36mp[24m[36mt[24m[36m-[24m[36mg[24m[36me[24m[36mt[39m[24m [24mi[24mn[24ms[24mt[24ma[24mll unit-dev unit-go[10P[10C1[10C7[4Ct-jsc18 unit-jsc19 unit-jsc20  \[A[?1l>[?2004l[2B
+
 sudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 Some packages could not be installed. This may mean that you have
 requested an impossible situation or if you are using the unstable
 distribution that some required packages have not yet been created
@@ -223,27 +913,70 @@ The following packages have unmet dependencies:
  unit-jsc19 : Depends: openjdk-19-jre-headless but it is not installable
  unit-jsc20 : Depends: openjdk-20-jre-headless but it is not installable
 E: Unable to correct problems, you have held broken packages.
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt-get[39m install unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 unit-jsc20  \[K
-              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[K[A[A[64D[5C[36ms[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m restart unit[K[1B[K[1B[K[A[A[31C[?1l>[?2004l[1Bsudo: unable to resolve host CodeNick: Name or service not known
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo systemctl restart unit[39m[26D[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [7m[36ma[7m[36mp[7m[36mt[39m[39m[7m [39m[7mi[39m[7mn[39m[7ms[39m[7mt[39m[7ma[39m[7ml[39m[7ml[39m[7m [39m[7mu[39m[7mn[39m[7mi[39m[7mt[27m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-j[38;2;153;153;153ms[38;2;153;153;153mc19 unit-jsc20  \[39m[K
-[38;2;153;153;153m              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[39m[K[A[A[43D[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[K[1B[K[1B[K[A[A[25C[?1l>[?2004l[1Bsudo: unable to resolve host CodeNick: Name or service not known
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt-get[39m install unit-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-jsc19 unit-jsc20  \[K
+
+              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[K[A[A[64D[5C[36ms[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m restart unit[K[1B
+[K[1B[K[A[A[31C[?1l>[?2004l[1B
+sudo: unable to resolve host CodeNick: Name or service not known
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo systemctl restart unit[39m[26D[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [7m[36ma[7m[36mp[7m[36mt[39m[39m[7m [39m[7mi[39m[7mn[39m[7ms[39m[7mt[39m[7ma[39m[7ml[39m[7ml[39m[7m [39m[7mu[39m[7mn[39m[7mi[39m[7mt[27m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m-dev unit-go unit-jsc11 unit-jsc17 unit-jsc18 unit-j[38;2;153;153;153ms[38;2;153;153;153mc19 unit-jsc20  \[39m[K
+
+[38;2;153;153;153m              unit-perl unit-php unit-python3.11 unit-ruby unit-wasm[39m[K[A[A[43D[16D[27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mn[27mi[27mt[K[1B
+[K[1B[K[A[A[25C[?1l>[?2004l[1B
+sudo: unable to resolve host CodeNick: Name or service not known
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 unit is already the newest version (1.31.1-1~lunar).
 0 upgraded, 0 newly installed, 0 to remove and 1175 not upgraded.
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install unit[16D[36ms[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m restart unit[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install unit[16D[36ms[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m restart unit[?1l>[?2004l
+
 sudo: unable to resolve host CodeNick: Name or service not known
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo systemctl restart unit[39m[26D[4ms[39m[4me[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[38;2;153;153;153mrvice nginx status[39m[18D[4ms[4me[39m[4mr[24m[4mr[39m[4mv[24m[4mv[39m[4mi[24m[4mi[39m[4mc[24m[24m[36ms[24m[36me[24m[36mr[24m[36mv[24m[36mi[24m[36mc[36me[39m[39m [39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11Dnit status[?1l>[?2004l
-[?1h=[0;1;32m●[0m unit.service - NGINX Unit[m
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo systemctl restart unit[39m[26D[4ms[39m[4me[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[38;2;153;153;153mrvice nginx status[39m[18D[4ms[4me[39m[4mr[24m[4mr[39m[4mv[24m[4mv[39m[4mi[24m[4mi[39m[4mc[24m[24m[36ms[24m[36me[24m[36mr[24m[36mv[24m[36mi[24m[36mc[36me[39m[39m [39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11Dnit status[?1l>[?2004l
+
+[?1h=
+[0;1;32m●[0m unit.service - NGINX Unit[m
      Loaded: loaded (]8;;file://CodeNick/lib/systemd/system/unit.service/lib/systemd/system/unit.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;38;5;185mdis[m[01;33m>[0m
      Active: [0;1;32mactive (running)[0m since Tue 2023-12-05 12:40:38 EST; 12s ago[m
     Process: 9642 ExecStart=/usr/sbin/unitd $DAEMON_ARGS (code=exited, statu[m[01;33m>[0m
@@ -260,16 +993,28 @@ Dec 05 12:40:38 CodeNick systemd[1]: Starting unit.service - NGINX Unit...[m
 Dec 05 12:40:38 CodeNick (unitd)[9642]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185munit.service: Referenced but unset e[m[01;33m>[0m
 Dec 05 12:40:38 CodeNick unitd[9642]: 2023/12/05 12:40:38 [info] 9642#9642 u[m[01;33m>[0m
 Dec 05 12:40:38 CodeNick systemd[1]: Started unit.service - NGINX Unit.[m
-[01;33mlines 1-17/17 (END)[0m[K[K[?1l>
+[01;33mlines 1-17/17 (END)[0m[K
+[K[?1l>
 zsh: suspended  service unit status
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mservice[39m unit status [38;2;153;153;153ms[39m [39m [38;2;153;153;153mus[39m [39m [39m [38;2;153;153;153mtus[39m [39m [39m [39m [38;2;153;153;153matus[39m [39m [39m [39m [39m [38;2;153;153;153mtatus[39m [39m [39m [39m [39m [39m [38;2;153;153;153mstatus[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m status[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153mt status[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mit status[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153mnit status[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153munit status[39m[11D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153m unit status[39m[12D[39m[4ms[39m[4me[39m[4mr[39m[4mv[39m[4mi[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153me unit status[39m[13D[4mi[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mce unit status[39m[14D[4mv[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153mice unit status[39m[15D[4mr[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153mvice unit status[39m[16D[4ms[4me[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153mrvice unit status[39m[17D[4ms[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[4ms[24m[38;2;153;153;153mervice unit status[39m[18D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[7m[36munitd[39m[7m [7m[32m--version[27m[39m[15D[27m[36mu[27m[36mn[27m[36mi[27m[36mt[27m[36md[39m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[39m[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mservice[39m unit status [38;2;153;153;153ms[39m [39m [38;2;153;153;153mus[39m [39m [39m [38;2;153;153;153mtus[39m [39m [39m [39m [38;2;153;153;153matus[39m [39m [39m [39m [39m [38;2;153;153;153mtatus[39m [39m [39m [39m [39m [39m [38;2;153;153;153mstatus[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m status[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153mt status[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mit status[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153mnit status[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153munit status[39m[11D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153m unit status[39m[12D[39m[4ms[39m[4me[39m[4mr[39m[4mv[39m[4mi[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153me unit status[39m[13D[4mi[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mce unit status[39m[14D[4mv[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153mice unit status[39m[15D[4mr[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153mvice unit status[39m[16D[4ms[4me[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153mrvice unit status[39m[17D[4ms[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[4ms[24m[38;2;153;153;153mervice unit status[39m[18D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[7m[36munitd[39m[7m [7m[32m--version[27m[39m[15D[27m[36mu[27m[36mn[27m[36mi[27m[36mt[27m[36md[39m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[39m[?1l>[?2004l
+
 unit version: 1.31.1
 configured as ./configure --prefix=/usr --statedir=/var/lib/unit --control=unix:/var/run/control.unit.sock --runstatedir=/var/run --pid=/var/run/unit.pid --logdir=/var/log --log=/var/log/unit.log --tmpdir=/var/tmp --user=unit --group=unit --tests --openssl --njs --modulesdir=/usr/lib/unit/modules --libdir=/usr/lib/x86_64-linux-gnu --cc-opt='-g -O2 -ffile-prefix-map=/data/builder/debuild/unit-1.31.1/pkg/deb/debuild/unit-1.31.1=. -flto=auto -ffat-lto-objects -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -fdebug-prefix-map=/data/builder/debuild/unit-1.31.1/pkg/deb/debuild/unit-1.31.1=/usr/src/unit-1.31.1-1~lunar -Wp,-D_FORTIFY_SOURCE=2 -fPIC' --ld-opt='-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -specs=/usr/share/dpkg/no-pie-link.specs -Wl,-z,relro -Wl,-z,now -Wl,--as-needed -pie'
-                                                                             ]0;kali@CodeNick: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36munitd[39m[7m [7m[32m--version[27m[39m[15D[27m[36mu[27m[36mn[27m[36mi[27m[36mt[27m[36md[39m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[7m[32munitd[39m[7m [7m[32m--version[27m[39m[15D[27m[32mu[27m[32mn[27m[32mi[27m[32mt[27m[32md[39m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[39m[27m[39m [32mi[39m[39m [32ms[39m[39m [32mr[39m[39m [32me[39m[39m [32mv[39m[39m [32m-[39m[39m [32m-[39m[39m [39m [32mt[39m[39m [32mi[39m[39m [32mn[39m[39m [32mu[39m[39m [32mn[39m[39m [32mo[39m[39m [38;2;153;153;153mn[39m[32mi[39m[39m [39m [38;2;153;153;153mon[39m[32ms[39m[39m [39m [39m [38;2;153;153;153mion[39m[32mr[39m[39m [39m [39m [39m [38;2;153;153;153msion[39m[32me[39m[39m [39m [39m [39m [39m [38;2;153;153;153mrsion[39m[32mv[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153mersion[39m[32m-[39m[39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mversion[39m[32m-[39m[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153m-version[39m[8D[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153m--version[39m[9D[39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153m --version[39m[10D[39m[4mu[39m[4mn[39m[4mi[39m[4mt[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153md --version[39m[11D[4mi[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mtd --version[39m[12D[4mu[4mn[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153mitd --version[39m[13D[4mu[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[4mu[24m[38;2;153;153;153mnitd --version[39m[14D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[4ms[24m[4ms[24m[38;2;153;153;153mervice unit status[39m[18D[4ms[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[4ms[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[24m[36ms[24m[36mc[24m[36mr[24m[36mi[24m[36mp[36mt[39m[?1l>[?2004l
+                                                                             
+
+]0;kali@CodeNick: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36munitd[39m[7m [7m[32m--version[27m[39m[15D[27m[36mu[27m[36mn[27m[36mi[27m[36mt[27m[36md[39m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[27m[32mn[7m[32munitd[39m[7m [7m[32m--version[27m[39m[15D[27m[32mu[27m[32mn[27m[32mi[27m[32mt[27m[32md[39m[27m [27m[32m-[27m[32m-[27m[32mv[27m[32me[27m[32mr[27m[32ms[27m[32mi[27m[32mo[39m[27m[39m [32mi[39m[39m [32ms[39m[39m [32mr[39m[39m [32me[39m[39m [32mv[39m[39m [32m-[39m[39m [32m-[39m[39m [39m [32mt[39m[39m [32mi[39m[39m [32mn[39m[39m [32mu[39m[39m [32mn[39m[39m [32mo[39m[39m [38;2;153;153;153mn[39m[32mi[39m[39m [39m [38;2;153;153;153mon[39m[32ms[39m[39m [39m [39m [38;2;153;153;153mion[39m[32mr[39m[39m [39m [39m [39m [38;2;153;153;153msion[39m[32me[39m[39m [39m [39m [39m [39m [38;2;153;153;153mrsion[39m[32mv[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153mersion[39m[32m-[39m[39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mversion[39m[32m-[39m[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153m-version[39m[8D[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153m--version[39m[9D[39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153m --version[39m[10D[39m[4mu[39m[4mn[39m[4mi[39m[4mt[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153md --version[39m[11D[4mi[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mtd --version[39m[12D[4mu[4mn[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153mitd --version[39m[13D[4mu[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[4mu[24m[38;2;153;153;153mnitd --version[39m[14D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[4ms[24m[4ms[24m[38;2;153;153;153mervice unit status[39m[18D[4ms[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[4ms[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[24m[36ms[24m[36mc[24m[36mr[24m[36mi[24m[36mp[36mt[39m[?1l>[?2004l
+
 Script started, output log file is 'typescript'.
-                                                                             ]0;kali@CodeNick: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+                                                                             
+
+]0;kali@CodeNick: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿CodeNick[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
 └─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mservice[39m nginx status  [38;2;153;153;153ms[39m [39m [38;2;153;153;153mus[39m [39m [39m [38;2;153;153;153mtus[39m [39m [39m [39m [38;2;153;153;153matus[39m [39m [39m [39m [39m [38;2;153;153;153mtatus[39m [39m [39m [39m [39m [39m [38;2;153;153;153mstatus[39m[1mn[1mg[1mi[1mn[1mx[0m [39m [39m [39m [39m [39m [39m [38;2;153;153;153m status[39m[1mn[0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153mx status[39m[8D[1mi[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mnx status[39m[9D[1mg[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153minx status[39m[10D[1mn[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153mginx status[39m[11D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mnginx status[39m[12D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153m nginx status[39m[13D[39m
