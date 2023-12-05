@@ -1,14 +1,42 @@
 Script started on 2023-11-29 15:12:15-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="77" LINES="43"]
-                                                                             ]0;kali@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mapt[39m[7m install openjdk-11-jdk[27m[31D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mo[27mp[27me[27mn[27mj[27md[27mk[27m-[27m1[27m1[27m-[27mj[27md[27mk[?1l>[?2004l
+                                                                             
+ 
+]0;kali@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mapt[39m[7m install openjdk-11-jdk[27m[31D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mo[27mp[27me[27mn[27mj[27md[27mk[27m-[27m1[27m1[27m-[27mj[27md[27mk[?1l>[?2004l
+
 [sudo] password for kali: 
 kSorry, try again.
 [sudo] password for kali: 
 Sorry, try again.
 [sudo] password for kali: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 The following additional packages will be installed:
   openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless
 Suggested packages:
@@ -21,14 +49,89 @@ The following NEW packages will be installed:
 Need to get 114 MB of archives.
 After this operation, 260 MB of additional disk space will be used.
 Do you want to continue? [Y/n] y
-[33m0% [Working][0m[33m0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org][0m[33m0% [Connecting to http.kali.org (192.99.200.113)][0m[33m                                                 0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:1 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jre-headless amd64 11.0.20~7-1 [38.2 MB]
-[33m0% [1 openjdk-11-jre-headless 5,498 B/38.2 MB 0%] [Waiting for headers][0m[33m                                                                       0% [1 openjdk-11-jre-headless 14.1 kB/38.2 MB 0%][0m[33m                                                 0% [1 openjdk-11-jre-headless 101 kB/38.2 MB 0%][0m[33m2% [1 openjdk-11-jre-headless 3,464 kB/38.2 MB 9%][0m[33m7% [1 openjdk-11-jre-headless 9,303 kB/38.2 MB 24%][0m[33m10% [1 openjdk-11-jre-headless 14.8 MB/38.2 MB 39%][0m[33m14% [1 openjdk-11-jre-headless 20.5 MB/38.2 MB 54%][0m[33m19% [1 openjdk-11-jre-headless 26.4 MB/38.2 MB 69%][0m[33m23% [1 openjdk-11-jre-headless 32.3 MB/38.2 MB 85%]           5,095 kB/s 16s[0m[33m27% [1 openjdk-11-jre-headless 38.2 MB/38.2 MB 100%]          5,095 kB/s 14s[0m[33m27% [1 openjdk-11-jre-headless 38.2 MB/38.2 MB 100%]          5,095 kB/s 14s[0m[33m32% [Working]                                                 5,095 kB/s 14s[0m                                                                            Get:2 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jre amd64 11.0.20~7-1 [193 kB]
-[33m32% [2 openjdk-11-jre 15.6 kB/193 kB 8%]                      5,095 kB/s 14s[0m[33m37% [Waiting for headers]                                     5,095 kB/s 14s[0m                                                                            Get:3 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jdk-headless amd64 11.0.20~7-1 [73.6 MB]
-[33m37% [3 openjdk-11-jdk-headless 45.6 kB/73.6 MB 0%]            5,095 kB/s 14s[0m[33m41% [3 openjdk-11-jdk-headless 5,548 kB/73.6 MB 8%]           5,095 kB/s 13s[0m[33m45% [3 openjdk-11-jdk-headless 11.4 MB/73.6 MB 16%]           5,095 kB/s 12s[0m[33m48% [3 openjdk-11-jdk-headless 16.4 MB/73.6 MB 22%]           5,095 kB/s 11s[0m[33m52% [3 openjdk-11-jdk-headless 21.4 MB/73.6 MB 29%]           5,095 kB/s 10s[0m[33m56% [3 openjdk-11-jdk-headless 26.6 MB/73.6 MB 36%]            5,095 kB/s 9s[0m[33m59% [3 openjdk-11-jdk-headless 32.1 MB/73.6 MB 44%]            5,095 kB/s 8s[0m[33m63% [3 openjdk-11-jdk-headless 37.7 MB/73.6 MB 51%]            5,095 kB/s 7s[0m[33m67% [3 openjdk-11-jdk-headless 43.3 MB/73.6 MB 59%]            5,095 kB/s 6s[0m[33m71% [3 openjdk-11-jdk-headless 48.7 MB/73.6 MB 66%]            5,095 kB/s 5s[0m[33m73% [3 openjdk-11-jdk-headless 52.1 MB/73.6 MB 71%]            9,263 kB/s 2s[0m[33m76% [3 openjdk-11-jdk-headless 56.0 MB/73.6 MB 76%]            9,263 kB/s 2s[0m[33m79% [3 openjdk-11-jdk-headless 60.4 MB/73.6 MB 82%]            9,263 kB/s 1s[0m[33m82% [3 openjdk-11-jdk-headless 65.0 MB/73.6 MB 88%]            9,263 kB/s 1s[0m[33m86% [3 openjdk-11-jdk-headless 69.6 MB/73.6 MB 95%]            9,263 kB/s 0s[0m[33m89% [3 openjdk-11-jdk-headless 73.6 MB/73.6 MB 100%]           9,263 kB/s 0s[0m[33m94% [Waiting for headers]                                      9,263 kB/s 0s[0m                                                                            Get:4 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jdk amd64 11.0.20~7-1 [2,061 kB]
-[33m94% [4 openjdk-11-jdk 41.0 kB/2,061 kB 2%]                     9,263 kB/s 0s[0m[33m100% [Working]                                                 9,263 kB/s 0s[0m                                                                            Fetched 114 MB in 16s (7,282 kB/s)
+[33m
+0% [Working][0m[33m
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org][0m[33m
+0% [Connecting to http.kali.org (192.99.200.113)][0m[33m
+                                                 
+0% [Waiting for headers][0m[33m
+0% [Waiting for headers][0m
+                        
+Get:1 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jre-headless amd64 11.0.20~7-1 [38.2 MB]
+[33m
+0% [1 openjdk-11-jre-headless 5,498 B/38.2 MB 0%] [Waiting for headers][0m[33m
+                                                                       
+0% [1 openjdk-11-jre-headless 14.1 kB/38.2 MB 0%][0m[33m
+                                                 
+0% [1 openjdk-11-jre-headless 101 kB/38.2 MB 0%][0m[33m
+2% [1 openjdk-11-jre-headless 3,464 kB/38.2 MB 9%][0m[33m
+7% [1 openjdk-11-jre-headless 9,303 kB/38.2 MB 24%][0m[33m
+10% [1 openjdk-11-jre-headless 14.8 MB/38.2 MB 39%][0m[33m
+14% [1 openjdk-11-jre-headless 20.5 MB/38.2 MB 54%][0m[33m
+19% [1 openjdk-11-jre-headless 26.4 MB/38.2 MB 69%][0m[33m
+23% [1 openjdk-11-jre-headless 32.3 MB/38.2 MB 85%]           5,095 kB/s 16s[0m[33m
+27% [1 openjdk-11-jre-headless 38.2 MB/38.2 MB 100%]          5,095 kB/s 14s[0m[33m
+27% [1 openjdk-11-jre-headless 38.2 MB/38.2 MB 100%]          5,095 kB/s 14s[0m[33m
+32% [Working]                                                 5,095 kB/s 14s[0m
+                                                                            
+Get:2 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jre amd64 11.0.20~7-1 [193 kB]
+[33m
+32% [2 openjdk-11-jre 15.6 kB/193 kB 8%]                      5,095 kB/s 14s[0m[33m
+37% [Waiting for headers]                                     5,095 kB/s 14s[0m
+                                                                            
+Get:3 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jdk-headless amd64 11.0.20~7-1 [73.6 MB]
+[33m
+37% [3 openjdk-11-jdk-headless 45.6 kB/73.6 MB 0%]            5,095 kB/s 14s[0m[33m
+41% [3 openjdk-11-jdk-headless 5,548 kB/73.6 MB 8%]           5,095 kB/s 13s[0m[33m
+45% [3 openjdk-11-jdk-headless 11.4 MB/73.6 MB 16%]           5,095 kB/s 12s[0m[33m
+48% [3 openjdk-11-jdk-headless 16.4 MB/73.6 MB 22%]           5,095 kB/s 11s[0m[33m
+52% [3 openjdk-11-jdk-headless 21.4 MB/73.6 MB 29%]           5,095 kB/s 10s[0m[33m
+56% [3 openjdk-11-jdk-headless 26.6 MB/73.6 MB 36%]            5,095 kB/s 9s[0m[33m
+59% [3 openjdk-11-jdk-headless 32.1 MB/73.6 MB 44%]            5,095 kB/s 8s[0m[33m
+63% [3 openjdk-11-jdk-headless 37.7 MB/73.6 MB 51%]            5,095 kB/s 7s[0m[33m
+67% [3 openjdk-11-jdk-headless 43.3 MB/73.6 MB 59%]            5,095 kB/s 6s[0m[33m
+71% [3 openjdk-11-jdk-headless 48.7 MB/73.6 MB 66%]            5,095 kB/s 5s[0m[33m
+73% [3 openjdk-11-jdk-headless 52.1 MB/73.6 MB 71%]            9,263 kB/s 2s[0m[33m
+76% [3 openjdk-11-jdk-headless 56.0 MB/73.6 MB 76%]            9,263 kB/s 2s[0m[33m
+79% [3 openjdk-11-jdk-headless 60.4 MB/73.6 MB 82%]            9,263 kB/s 1s[0m[33m
+82% [3 openjdk-11-jdk-headless 65.0 MB/73.6 MB 88%]            9,263 kB/s 1s[0m[33m
+86% [3 openjdk-11-jdk-headless 69.6 MB/73.6 MB 95%]            9,263 kB/s 0s[0m[33m
+89% [3 openjdk-11-jdk-headless 73.6 MB/73.6 MB 100%]           9,263 kB/s 0s[0m[33m
+94% [Waiting for headers]                                      9,263 kB/s 0s[0m
+                                                                            
+Get:4 http://http.kali.org/kali kali-rolling/main amd64 openjdk-11-jdk amd64 11.0.20~7-1 [2,061 kB]
+[33m
+94% [4 openjdk-11-jdk 41.0 kB/2,061 kB 2%]                     9,263 kB/s 0s[0m[33m
+100% [Working]                                                 9,263 kB/s 0s[0m
+                                                                            
+Fetched 114 MB in 16s (7,282 kB/s)
 
 7[0;42r8[1ASelecting previously unselected package openjdk-11-jre-headless:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 400918 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 400918 files and directories currently installed.)
 Preparing to unpack .../openjdk-11-jre-headless_11.0.20~7-1_amd64.deb ...
 7[43;0f[42m[30mProgress: [  0%][49m[39m [.......................................................] 87[43;0f[42m[30mProgress: [  6%][49m[39m [###....................................................] 8Unpacking openjdk-11-jre-headless:amd64 (11.0.20~7-1) ...
 7[43;0f[42m[30mProgress: [ 12%][49m[39m [######.................................................] 8Selecting previously unselected package openjdk-11-jre:amd64.
@@ -80,60 +183,190 @@ update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jhsdb to provi
 7[43;0f[42m[30mProgress: [ 76%][49m[39m [##########################################.............] 87[43;0f[42m[30mProgress: [ 82%][49m[39m [#############################################..........] 8Setting up openjdk-11-jdk:amd64 (11.0.20~7-1) ...
 7[43;0f[42m[30mProgress: [ 88%][49m[39m [################################################.......] 8update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
 7[43;0f[42m[30mProgress: [ 94%][49m[39m [###################################################....] 8
-7[0;43r8[1A[J                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[1ma[0m[1mj[1ma[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m [32m-[39m[32m-[32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+7[0;43r8[1A[J                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[1ma[0m[1mj[1ma[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m [32m-[39m[32m-[32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+
 Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
 openjdk 17.0.8 2023-07-18
 OpenJDK Runtime Environment (build 17.0.8+7-Debian-1)
 OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1, mixed mode, sharing)
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mjava[39m [32m--version[39m[14D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m[39m [39mi[39mn[39ms[39mt[39mall openjdk-11-jdk-jdk -jdk 8-jdk[?1l>[?2004l
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 82%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mjava[39m [32m--version[39m[14D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m[39m [39mi[39mn[39ms[39mt[39mall openjdk-11-jdk-jdk -jdk 8-jdk[?1l>[?2004l
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 82%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package openjdk-8-jdk[0m
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install openjdk-8-jdk-jdk 1-jdk0-jdk[?1l>[?2004l
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install openjdk-8-jdk-jdk 1-jdk0-jdk[?1l>[?2004l
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package openjdk-10-jdk[0m
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install openjdk-10-jdk[1C-jdk 2-jdk[?1l>[?2004l
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 88%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install openjdk-10-jdk[1C-jdk 2-jdk[?1l>[?2004l
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 88%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package openjdk-12-jdk[0m
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install openjdk-12-jdk0[4C8-jdk [30D[24m[36mj[24m[36ma[24m[36mv[24m[36ma[39m [32m-[32m-[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m                [16D[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m[39m [9D[?1l>[?2004l
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install openjdk-12-jdk0[4C8-jdk [30D[24m[36mj[24m[36ma[24m[36mv[24m[36ma[39m [32m-[32m-[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m                [16D[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m[39m [9D[?1l>[?2004l
+
 Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
 openjdk version "17.0.8" 2023-07-18
 OpenJDK Runtime Environment (build 17.0.8+7-Debian-1)
 OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1, mixed mode, sharing)
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mapt[39m[7m install openjdk-8-jdk[27m[30D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mo[27mp[27me[27mn[27mj[27md[27mk[27m-[27m8[27m-[27mj[27md[27mk[?1l>[?2004l
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 95%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mapt[39m[7m install openjdk-8-jdk[27m[30D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36ma[27m[36mp[27m[36mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mo[27mp[27me[27mn[27mj[27md[27mk[27m-[27m8[27m-[27mj[27md[27mk[?1l>[?2004l
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 95%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
 [1;31mE: [0mUnable to locate package openjdk-8-jdk[0m
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mupdate-alternatives[39m[7m [7m[32m--list[39m[7m [1m[7mjava[0m[27m[36D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36mu[27m[36mp[27m[36md[27m[36ma[27m[36mt[27m[36me[27m[36m-[27m[36ma[27m[36ml[27m[36mt[27m[36me[27m[36mr[27m[36mn[27m[36ma[27m[36mt[27m[36mi[27m[36mv[27m[36me[27m[36ms[39m[27m [27m[32m-[27m[32m-[27m[32ml[27m[32mi[27m[32ms[27m[32mt[39m[27m [27m[1mj[27m[1ma[27m[1mv[27m[1ma[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mupdate-alternatives[39m[7m [7m[32m--list[39m[7m [1m[7mjava[0m[27m[36D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36mu[27m[36mp[27m[36md[27m[36ma[27m[36mt[27m[36me[27m[36m-[27m[36ma[27m[36ml[27m[36mt[27m[36me[27m[36mr[27m[36mn[27m[36ma[27m[36mt[27m[36mi[27m[36mv[27m[36me[27m[36ms[39m[27m [27m[32m-[27m[32m-[27m[32ml[27m[32mi[27m[32ms[27m[32mt[39m[27m [27m[1mj[27m[1ma[27m[1mv[27m[1ma[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+
 /usr/lib/jvm/java-11-openjdk-amd64/bin/java
 /usr/lib/jvm/java-17-openjdk-amd64/bin/java
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mupdate-alternatives[39m[7m [7m[32m--config[39m[7m [1m[7mjav[0m[27m[37D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36mu[27m[36mp[27m[36md[27m[36ma[27m[36mt[27m[36me[27m[36m-[27m[36ma[27m[36ml[27m[36mt[27m[36me[27m[36mr[27m[36mn[27m[36ma[27m[36mt[27m[36mi[27m[36mv[27m[36me[27m[36ms[39m[27m [27m[32m-[27m[32m-[27m[32mc[27m[32mo[27m[32mn[27m[32mf[27m[32mi[27m[32mg[39m[27m [27m[1mj[27m[1ma[27m[1mv[0m[?1l>[?2004l[0mj[0ma[0mv
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mupdate-alternatives[39m[7m [7m[32m--config[39m[7m [1m[7mjav[0m[27m[37D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36mu[27m[36mp[27m[36md[27m[36ma[27m[36mt[27m[36me[27m[36m-[27m[36ma[27m[36ml[27m[36mt[27m[36me[27m[36mr[27m[36mn[27m[36ma[27m[36mt[27m[36mi[27m[36mv[27m[36me[27m[36ms[39m[27m [27m[32m-[27m[32m-[27m[32mc[27m[32mo[27m[32mn[27m[32mf[27m[32mi[27m[32mg[39m[27m [27m[1mj[27m[1ma[27m[1mv[0m[?1l>[?2004l[0mj[0ma[0mv
+
 update-alternatives: error: no alternatives for jav
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mupdate-alternatives[39m [32m--config[39m [1mjav[0m[1mv[1ma[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mupdate-alternatives[39m [32m--config[39m [1mjav[0m[1mv[1ma[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+
 There are 2 choices for the alternative java (providing /usr/bin/java).
 
   Selection    Path                                         Priority   Status
@@ -143,21 +376,31 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
   2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      manual mode
 
 Press <enter> to keep the current choice[*], or type selection number: 2
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[0m[38;2;153;153;153mava -version[39m[12D[1mj[39m[1ma[0m[1mj[1ma[39m[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[38D[24m[36mj[24m[36ma[24m[36mv[24m[36ma[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m  [0m [0m [0m [0m [34D [38;2;153;153;153m-version[39m[8D[32m-[39m[32m-[32mv[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[38D[24m[36mj[24m[36ma[24m[36mv[24m[36ma[39m [32m-[32mv[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m  [0m [0m [0m [0m [31D[39m-[39mv
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[0m[38;2;153;153;153mava -version[39m[12D[1mj[39m[1ma[0m[1mj[1ma[39m[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[38D[24m[36mj[24m[36ma[24m[36mv[24m[36ma[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m  [0m [0m [0m [0m [34D [38;2;153;153;153m-version[39m[8D[32m-[39m[32m-[32mv[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[38D[24m[36mj[24m[36ma[24m[36mv[24m[36ma[39m [32m-[32mv[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m  [0m [0m [0m [0m [31D[39m-[39mv
+
 Completing option
 [0m-verbose:class  -verbose  -- print class information                       
 -verbose:gc               -- print gc information                          
 -verbose:jni              -- print JNI information                         
-[J-version        [J          [J-- print version                                 [J[5A[0m[27m[24m[0m[39m[4C[36mjava[39m -v[K[0m[39m[32m-[32mv[32me[39m[38;2;153;153;153mrsion[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[32mo[39m[39m [38;2;153;153;153mn[39m[32mo[32mn[39m[?1l>[?2004l
+[J-version        [J          [J-- print version                                 [J[5A[0m[27m[24m[0m[39m
+[4C[36mjava[39m -v[K[0m[39m[32m-[32mv[32me[39m[38;2;153;153;153mrsion[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[32mo[39m[39m [38;2;153;153;153mn[39m[32mo[32mn[39m[?1l>[?2004l
+
 [JPicked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
 openjdk version "17.0.8" 2023-07-18
 OpenJDK Runtime Environment (build 17.0.8+7-Debian-1)
 OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1, mixed mode, sharing)
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mjava[39m [32m-version[39m[13D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mjava[39m [32m-version[39m[13D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+
 There are 2 choices for the alternative java (providing /usr/bin/java).
 
   Selection    Path                                         Priority   Status
@@ -167,16 +410,24 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 * 2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      manual mode
 
 Press <enter> to keep the current choice[*], or type selection number: 2
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[0m[38;2;153;153;153mava -version[39m[12D[1mj[39m[1ma[0m[1mj[1ma[39m[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m[39m [32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[0m[38;2;153;153;153mava -version[39m[12D[1mj[39m[1ma[0m[1mj[1ma[39m[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m[39m [32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+
 Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
 openjdk version "17.0.8" 2023-07-18
 OpenJDK Runtime Environment (build 17.0.8+7-Debian-1)
 OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1, mixed mode, sharing)
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mjava[39m [32m-version[39m[13D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mjava[39m [32m-version[39m[13D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mu[36mp[36md[36ma[36mt[36me[36m-[36ma[36mlternatives[39m [32m--config[39m [1mjava[0m[?1l>[?2004l[0mj[0ma[0mv[0ma
+
 There are 2 choices for the alternative java (providing /usr/bin/java).
 
   Selection    Path                                         Priority   Status
@@ -187,15 +438,23 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 
 Press <enter> to keep the current choice[*], or type selection number: 1
 update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[0m[38;2;153;153;153mava -version[39m[12D[1mj[39m[1ma[0m[1mj[1ma[39m[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m[39m [32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mj[0m[1mj[0m[38;2;153;153;153mava -version[39m[12D[1mj[39m[1ma[0m[1mj[1ma[39m[1mv[0m[0m[36mj[0m[36ma[0m[36mv[36ma[39m[39m [32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+
 Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
 openjdk version "11.0.20-ea" 2023-07-18
 OpenJDK Runtime Environment (build 11.0.20-ea+7-post-Debian-1)
 OpenJDK 64-Bit Server VM (build 11.0.20-ea+7-post-Debian-1, mixed mode, sharing)
-                                                                             ]0;kali@kali: ~
-[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+                                                                             
+
+]0;kali@kali: ~
+
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
 
 Script done on 2023-11-29 15:23:54-05:00 [COMMAND_EXIT_CODE="0"]
